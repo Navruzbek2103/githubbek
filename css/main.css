@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1380px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-list{
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item-link{
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-btn{
+  color: #000;
+  font-size: 24px;
+  background-color: yellowgreen;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 7px;
+}
+
+.hero-title{
+  font-size: 34px;
+  margin: 30px 0;
+  text-align: center;
+}
